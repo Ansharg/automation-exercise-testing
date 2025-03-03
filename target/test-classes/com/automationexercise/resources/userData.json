@@ -1,0 +1,16 @@
+[
+	{
+		"name" : "chirag",
+		"email": "chirag@gmail.com",
+		"password": "chirag garg",
+		"first_name": "chirag",
+		"last_name": "garg",
+		"company": "capgemini",
+		"address1":"sector 34,gurugram, haryana",
+		"address2":"sector 34,gurugram, haryana",
+		"state" : "haryana",
+		"city" : "kurukshetra",
+		"zipcode" : "136118",
+		"mobile_number" : "7082730874"
+	}
+]

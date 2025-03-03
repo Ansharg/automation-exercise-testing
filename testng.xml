@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.automationexercise.automationexercise.Listeners"></listener>
+</listeners>
+
+  <test thread-count="5" name="RegisterTest">
+    <classes>
+      <class name="com.automationexercise.tests.Register"/>
+    </classes>
+  </test> 
+  
+  <test thread-count="5" name="Logout">
+    <classes>
+      <class name="com.automationexercise.tests.Logout"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Login">
+    <classes>
+      <class name="com.automationexercise.tests.Login"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="IncorrectLogin">
+    <classes>
+      <class name="com.automationexercise.tests.IncorrectLogin"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="ExsistRegister">
+    <classes>
+      <class name="com.automationexercise.tests.ExsistRegister"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="ContactUs">
+    <classes>
+      <class name="com.automationexercise.tests.ContactUsForm"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="VerifyTestCases">
+    <classes>
+      <class name="com.automationexercise.tests.VerifyTestCases"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="AllProducts">
+    <classes>
+      <class name="com.automationexercise.tests.AllProducts"/>
+    </classes>
+  </test>
+  <test thread-count="5" name="SearchProducts">
+    <classes>
+      <class name="com.automationexercise.tests.SearchProducts"/>
+    </classes>
+  </test>
+  <test thread-count="5" name="SubscriptionHome">
+    <classes>
+      <class name="com.automationexercise.tests.SubscriptionHomePage"/>
+    </classes>
+  </test>
+  <test thread-count="5" name="SubscriptionCart">
+    <classes>
+      <class name="com.automationexercise.tests.SubscriptionCartPage"/>
+    </classes>
+  </test>
+  <test thread-count="5" name="AddProductsCart">
+    <classes>
+      <class name="com.automationexercise.tests.AddProductsCart"/>
+    </classes>
+  </test>
+  <test thread-count="5" name="VerifyProductQuantity">
+    <classes>
+      <class name="com.automationexercise.tests.VerifyProductQuantity"/>
+    </classes>
+  </test>
+  <test thread-count="5" name="CategoryProduct">
+    <classes>
+      <class name="com.automationexercise.tests.CategoryProduct"/>
+    </classes>
+  </test>
+  <test thread-count="5" name="AddReview">
+    <classes>
+      <class name="com.automationexercise.tests.AddReview"/>
+    </classes>
+  </test>
+  
+  <test thread-count="5" name="ArrowBtnCheck">
+    <classes>
+      <class name="com.automationexercise.tests.ArrowBtnCheck"/>
+    </classes>
+  </test>
+  <test thread-count="5" name="DownloadInvoice">
+    <classes>
+      <class name="com.automationexercise.tests.DownloadInvoice"/>
+    </classes>
+  </test>
+  
+  <test thread-count="5" name="RegisterBeforeCheckout">
+    <classes>
+      <class name="com.automationexercise.tests.RegisterBeforeCheckout"/>
+    </classes>
+  </test>
+  
+  <test thread-count="5" name="RegisterWhileCheckout">
+    <classes>
+      <class name="com.automationexercise.tests.RegisterWhileCheckout"/>
+    </classes>
+  </test>
+  
+  <test thread-count="5" name="SearchProductVerifyCart">
+    <classes>
+      <class name="com.automationexercise.tests.SearchProductVerifyCart"/>
+    </classes>
+  </test>
+  
+  <test thread-count="5" name="VerifyAddressCartPage">
+    <classes>
+      <class name="com.automationexercise.tests.VerifyAddressCartPage"/>
+    </classes>
+  </test>
+  <test thread-count="5" name="ViewBrand">
+    <classes>
+      <class name="com.automationexercise.tests.ViewBrand"/>
+    </classes>
+  </test>
+  
+</suite> <!-- Suite -->

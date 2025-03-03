@@ -1,0 +1,23 @@
+[
+	{
+		"name" : "ansh garg",
+		"email" : "anshgarg94161@gmail.com",
+		"subject" : "for testing purpose",
+		"message" : "this for checking contact us form is working correct or not.",
+		"upload_file" : "C:\\Users\\AnshGarg\\NewWorkSpace(Personal)\\automationexercise\\reports\\register.png"
+	},
+	{
+		"name" : "depesh",
+		"email" : "depesh@gmail.com",
+		"subject" : "for testing purpose",
+		"message" : "this for checking contact us form is working correct or not.",
+		"upload_file" : "C:\\Users\\AnshGarg\\NewWorkSpace(Personal)\\automationexercise\\reports\\register.png"
+	},
+	{
+		"name" : "chirag",
+		"email" : "chirag@gmail.com",
+		"subject" : "for testing purpose",
+		"message" : "this for checking contact us form is working correct or not.",
+		"upload_file" : "C:\\Users\\AnshGarg\\NewWorkSpace(Personal)\\automationexercise\\reports\\register.png"
+	}
+]

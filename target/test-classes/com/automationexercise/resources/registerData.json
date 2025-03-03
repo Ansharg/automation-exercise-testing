@@ -1,0 +1,30 @@
+[
+	{
+		"name" : "ansh garg",
+		"email": "ansh@gmail.com",
+		"password": "ansh garg",
+		"first_name": "ansh",
+		"last_name": "garg",
+		"company": "good" ,
+		"address1":"sector 34,gurugram, haryana",
+		"address2":"sector 34,gurugram, haryana",
+		"state" : "haryana",
+		"city" : "kurukshetra",
+		"zipcode" : "136118",
+		"mobile_number" : "7082730874"
+	},
+	{
+		"name" : "depesh",
+		"email": "depesh@gmail.com",
+		"password": "depesh khemka",
+		"first_name": "depesh",
+		"last_name": "khemka",
+		"company": "dfhskj" ,
+		"address1":"sector 34,gurugram, haryana",
+		"address2":"sector 34,gurugram, haryana",
+		"state" : "haryana",
+		"city" : "kurukshetra",
+		"zipcode" : "136118",
+		"mobile_number" : "7082730874"
+	}
+]

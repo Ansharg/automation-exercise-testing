@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="35" passed="35" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-01T22:14:28 IST" name="Suite" finished-at="2025-03-01T22:34:00 IST" duration-ms="1171897">
+    <groups>
+    </groups>
+    <test started-at="2025-03-01T22:14:28 IST" name="RegisterTest" finished-at="2025-03-01T22:14:57 IST" duration-ms="29382">
+      <class name="com.automationexercise.tests.Register">
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.Register@49c90a9c]" started-at="2025-03-01T22:14:28 IST" name="entryPoint" finished-at="2025-03-01T22:14:34 IST" duration-ms="6119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="register(java.util.HashMap)[pri:0, instance:com.automationexercise.tests.Register@49c90a9c]" started-at="2025-03-01T22:14:34 IST" name="register" data-provider="testData" finished-at="2025-03-01T22:14:42 IST" duration-ms="8542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{zipcode=136118, password=ansh garg, address2=sector 34,gurugram, haryana, city=kurukshetra, address1=sector 34,gurugram, haryana, name=ansh garg, last_name=garg, company=good, state=haryana, mobile_number=7082730874, first_name=ansh, email=ansh@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.Register@49c90a9c]" started-at="2025-03-01T22:14:42 IST" name="closingPoint" finished-at="2025-03-01T22:14:43 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.Register@49c90a9c]" started-at="2025-03-01T22:14:43 IST" name="entryPoint" finished-at="2025-03-01T22:14:47 IST" duration-ms="4328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="register(java.util.HashMap)[pri:0, instance:com.automationexercise.tests.Register@49c90a9c]" started-at="2025-03-01T22:14:47 IST" name="register" data-provider="testData" finished-at="2025-03-01T22:14:57 IST" duration-ms="9737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{zipcode=136118, password=depesh khemka, address2=sector 34,gurugram, haryana, city=kurukshetra, address1=sector 34,gurugram, haryana, name=depesh, last_name=khemka, company=dfhskj, state=haryana, mobile_number=7082730874, first_name=depesh, email=depesh@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.Register@49c90a9c]" started-at="2025-03-01T22:14:57 IST" name="closingPoint" finished-at="2025-03-01T22:14:57 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+      </class> <!-- com.automationexercise.tests.Register -->
+    </test> <!-- RegisterTest -->
+    <test started-at="2025-03-01T22:14:58 IST" name="Logout" finished-at="2025-03-01T22:15:19 IST" duration-ms="21174">
+      <class name="com.automationexercise.tests.Logout">
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.Logout@4ef74c30]" started-at="2025-03-01T22:14:58 IST" name="entryPoint" finished-at="2025-03-01T22:15:03 IST" duration-ms="5386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="logout(java.util.HashMap)[pri:0, instance:com.automationexercise.tests.Logout@4ef74c30]" started-at="2025-03-01T22:15:03 IST" name="logout" data-provider="loginData" finished-at="2025-03-01T22:15:08 IST" duration-ms="5225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=ansh garg, password=ansh garg, email=ansh@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.Logout@4ef74c30]" started-at="2025-03-01T22:15:08 IST" name="closingPoint" finished-at="2025-03-01T22:15:08 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.Logout@4ef74c30]" started-at="2025-03-01T22:15:08 IST" name="entryPoint" finished-at="2025-03-01T22:15:13 IST" duration-ms="5121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="logout(java.util.HashMap)[pri:0, instance:com.automationexercise.tests.Logout@4ef74c30]" started-at="2025-03-01T22:15:13 IST" name="logout" data-provider="loginData" finished-at="2025-03-01T22:15:19 IST" duration-ms="5062" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=depesh, password=depesh khemka, email=depesh@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.Logout@4ef74c30]" started-at="2025-03-01T22:15:19 IST" name="closingPoint" finished-at="2025-03-01T22:15:19 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+      </class> <!-- com.automationexercise.tests.Logout -->
+    </test> <!-- Logout -->
+    <test started-at="2025-03-01T22:15:19 IST" name="Login" finished-at="2025-03-01T22:15:44 IST" duration-ms="25112">
+      <class name="com.automationexercise.tests.Login">
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.Login@776a6d9b]" started-at="2025-03-01T22:15:19 IST" name="entryPoint" finished-at="2025-03-01T22:15:24 IST" duration-ms="5227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="login(java.util.HashMap)[pri:0, instance:com.automationexercise.tests.Login@776a6d9b]" started-at="2025-03-01T22:15:24 IST" name="login" data-provider="loginData" finished-at="2025-03-01T22:15:28 IST" duration-ms="3955" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=ansh garg, password=ansh garg, email=ansh@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.Login@776a6d9b]" started-at="2025-03-01T22:15:28 IST" name="closingPoint" finished-at="2025-03-01T22:15:28 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.Login@776a6d9b]" started-at="2025-03-01T22:15:28 IST" name="entryPoint" finished-at="2025-03-01T22:15:35 IST" duration-ms="7024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="login(java.util.HashMap)[pri:0, instance:com.automationexercise.tests.Login@776a6d9b]" started-at="2025-03-01T22:15:35 IST" name="login" data-provider="loginData" finished-at="2025-03-01T22:15:44 IST" duration-ms="8516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=depesh, password=depesh khemka, email=depesh@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.Login@776a6d9b]" started-at="2025-03-01T22:15:44 IST" name="closingPoint" finished-at="2025-03-01T22:15:44 IST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+      </class> <!-- com.automationexercise.tests.Login -->
+    </test> <!-- Login -->
+    <test started-at="2025-03-01T22:15:44 IST" name="IncorrectLogin" finished-at="2025-03-01T22:16:00 IST" duration-ms="16547">
+      <class name="com.automationexercise.tests.IncorrectLogin">
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.IncorrectLogin@4c5ae43b]" started-at="2025-03-01T22:15:44 IST" name="entryPoint" finished-at="2025-03-01T22:15:49 IST" duration-ms="5447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="incorrectLoginCheck(java.util.HashMap)[pri:0, instance:com.automationexercise.tests.IncorrectLogin@4c5ae43b]" started-at="2025-03-01T22:15:49 IST" name="incorrectLoginCheck" data-provider="loginData" finished-at="2025-03-01T22:15:52 IST" duration-ms="2402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=ansh garg, password=ansh garg, email=ansh@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectLoginCheck -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.IncorrectLogin@4c5ae43b]" started-at="2025-03-01T22:15:52 IST" name="closingPoint" finished-at="2025-03-01T22:15:52 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.IncorrectLogin@4c5ae43b]" started-at="2025-03-01T22:15:52 IST" name="entryPoint" finished-at="2025-03-01T22:15:58 IST" duration-ms="5821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="incorrectLoginCheck(java.util.HashMap)[pri:0, instance:com.automationexercise.tests.IncorrectLogin@4c5ae43b]" started-at="2025-03-01T22:15:58 IST" name="incorrectLoginCheck" data-provider="loginData" finished-at="2025-03-01T22:16:00 IST" duration-ms="2480" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=depesh, password=depesh khemka, email=depesh@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectLoginCheck -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.IncorrectLogin@4c5ae43b]" started-at="2025-03-01T22:16:00 IST" name="closingPoint" finished-at="2025-03-01T22:16:00 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+      </class> <!-- com.automationexercise.tests.IncorrectLogin -->
+    </test> <!-- IncorrectLogin -->
+    <test started-at="2025-03-01T22:16:01 IST" name="ExsistRegister" finished-at="2025-03-01T22:16:08 IST" duration-ms="7747">
+      <class name="com.automationexercise.tests.ExsistRegister">
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.ExsistRegister@747f281]" started-at="2025-03-01T22:16:01 IST" name="entryPoint" finished-at="2025-03-01T22:16:06 IST" duration-ms="5161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="existUserRegisterChecking(java.util.HashMap)[pri:0, instance:com.automationexercise.tests.ExsistRegister@747f281]" started-at="2025-03-01T22:16:06 IST" name="existUserRegisterChecking" data-provider="loginData" finished-at="2025-03-01T22:16:08 IST" duration-ms="2411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{zipcode=136118, password=chirag garg, address2=sector 34,gurugram, haryana, city=kurukshetra, address1=sector 34,gurugram, haryana, name=chirag, last_name=garg, company=capgemini, state=haryana, mobile_number=7082730874, first_name=chirag, email=chirag@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- existUserRegisterChecking -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.ExsistRegister@747f281]" started-at="2025-03-01T22:16:08 IST" name="closingPoint" finished-at="2025-03-01T22:16:08 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+      </class> <!-- com.automationexercise.tests.ExsistRegister -->
+    </test> <!-- ExsistRegister -->
+    <test started-at="2025-03-01T22:16:08 IST" name="ContactUs" finished-at="2025-03-01T22:16:48 IST" duration-ms="39684">
+      <class name="com.automationexercise.tests.ContactUsForm">
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.ContactUsForm@1ebea008]" started-at="2025-03-01T22:16:08 IST" name="entryPoint" finished-at="2025-03-01T22:16:30 IST" duration-ms="21348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="contactUsForm(java.util.HashMap)[pri:0, instance:com.automationexercise.tests.ContactUsForm@1ebea008]" started-at="2025-03-01T22:16:30 IST" name="contactUsForm" data-provider="contactData" finished-at="2025-03-01T22:16:33 IST" duration-ms="3733" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=ansh garg, message=this for checking contact us form is working correct or not., subject=for testing purpose, email=anshgarg94161@gmail.com, upload_file=C:\Users\AnshGarg\NewWorkSpace(Personal)\automationexercise\reports\register.png}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUsForm -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.ContactUsForm@1ebea008]" started-at="2025-03-01T22:16:33 IST" name="closingPoint" finished-at="2025-03-01T22:16:34 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.ContactUsForm@1ebea008]" started-at="2025-03-01T22:16:34 IST" name="entryPoint" finished-at="2025-03-01T22:16:39 IST" duration-ms="5323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="contactUsForm(java.util.HashMap)[pri:0, instance:com.automationexercise.tests.ContactUsForm@1ebea008]" started-at="2025-03-01T22:16:39 IST" name="contactUsForm" data-provider="contactData" finished-at="2025-03-01T22:16:41 IST" duration-ms="1974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=depesh, message=this for checking contact us form is working correct or not., subject=for testing purpose, email=depesh@gmail.com, upload_file=C:\Users\AnshGarg\NewWorkSpace(Personal)\automationexercise\reports\register.png}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUsForm -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.ContactUsForm@1ebea008]" started-at="2025-03-01T22:16:41 IST" name="closingPoint" finished-at="2025-03-01T22:16:41 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.ContactUsForm@1ebea008]" started-at="2025-03-01T22:16:41 IST" name="entryPoint" finished-at="2025-03-01T22:16:45 IST" duration-ms="4181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="contactUsForm(java.util.HashMap)[pri:0, instance:com.automationexercise.tests.ContactUsForm@1ebea008]" started-at="2025-03-01T22:16:45 IST" name="contactUsForm" data-provider="contactData" finished-at="2025-03-01T22:16:48 IST" duration-ms="2519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=chirag, message=this for checking contact us form is working correct or not., subject=for testing purpose, email=chirag@gmail.com, upload_file=C:\Users\AnshGarg\NewWorkSpace(Personal)\automationexercise\reports\register.png}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUsForm -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.ContactUsForm@1ebea008]" started-at="2025-03-01T22:16:48 IST" name="closingPoint" finished-at="2025-03-01T22:16:48 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+      </class> <!-- com.automationexercise.tests.ContactUsForm -->
+    </test> <!-- ContactUs -->
+    <test started-at="2025-03-01T22:16:48 IST" name="VerifyTestCases" finished-at="2025-03-01T22:16:54 IST" duration-ms="6018">
+      <class name="com.automationexercise.tests.VerifyTestCases">
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.VerifyTestCases@35a3d49f]" started-at="2025-03-01T22:16:48 IST" name="entryPoint" finished-at="2025-03-01T22:16:53 IST" duration-ms="4664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="testCasesPage()[pri:0, instance:com.automationexercise.tests.VerifyTestCases@35a3d49f]" started-at="2025-03-01T22:16:53 IST" name="testCasesPage" finished-at="2025-03-01T22:16:54 IST" duration-ms="1188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCasesPage -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.VerifyTestCases@35a3d49f]" started-at="2025-03-01T22:16:54 IST" name="closingPoint" finished-at="2025-03-01T22:16:54 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+      </class> <!-- com.automationexercise.tests.VerifyTestCases -->
+    </test> <!-- VerifyTestCases -->
+    <test started-at="2025-03-01T22:16:54 IST" name="AllProducts" finished-at="2025-03-01T22:17:04 IST" duration-ms="9832">
+      <class name="com.automationexercise.tests.AllProducts">
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.AllProducts@7b50df34]" started-at="2025-03-01T22:16:54 IST" name="entryPoint" finished-at="2025-03-01T22:17:00 IST" duration-ms="6186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="allProducts()[pri:0, instance:com.automationexercise.tests.AllProducts@7b50df34]" started-at="2025-03-01T22:17:00 IST" name="allProducts" finished-at="2025-03-01T22:17:04 IST" duration-ms="3496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allProducts -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.AllProducts@7b50df34]" started-at="2025-03-01T22:17:04 IST" name="closingPoint" finished-at="2025-03-01T22:17:04 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+      </class> <!-- com.automationexercise.tests.AllProducts -->
+    </test> <!-- AllProducts -->
+    <test started-at="2025-03-01T22:17:04 IST" name="SearchProducts" finished-at="2025-03-01T22:17:12 IST" duration-ms="8088">
+      <class name="com.automationexercise.tests.SearchProducts">
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.SearchProducts@1e13529a]" started-at="2025-03-01T22:17:04 IST" name="entryPoint" finished-at="2025-03-01T22:17:09 IST" duration-ms="5363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="searchProduct()[pri:0, instance:com.automationexercise.tests.SearchProducts@1e13529a]" started-at="2025-03-01T22:17:09 IST" name="searchProduct" finished-at="2025-03-01T22:17:12 IST" duration-ms="2523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.SearchProducts@1e13529a]" started-at="2025-03-01T22:17:12 IST" name="closingPoint" finished-at="2025-03-01T22:17:12 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+      </class> <!-- com.automationexercise.tests.SearchProducts -->
+    </test> <!-- SearchProducts -->
+    <test started-at="2025-03-01T22:17:12 IST" name="SubscriptionHome" finished-at="2025-03-01T22:17:24 IST" duration-ms="11503">
+      <class name="com.automationexercise.tests.SubscriptionHomePage">
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.SubscriptionHomePage@15f47664]" started-at="2025-03-01T22:17:12 IST" name="entryPoint" finished-at="2025-03-01T22:17:17 IST" duration-ms="5147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="subscriptionVerify(java.lang.String)[pri:0, instance:com.automationexercise.tests.SubscriptionHomePage@15f47664]" started-at="2025-03-01T22:17:17 IST" name="subscriptionVerify" data-provider="getSubscription" finished-at="2025-03-01T22:17:18 IST" duration-ms="900" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ansh@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subscriptionVerify -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.SubscriptionHomePage@15f47664]" started-at="2025-03-01T22:17:18 IST" name="closingPoint" finished-at="2025-03-01T22:17:18 IST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.SubscriptionHomePage@15f47664]" started-at="2025-03-01T22:17:18 IST" name="entryPoint" finished-at="2025-03-01T22:17:23 IST" duration-ms="4279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="subscriptionVerify(java.lang.String)[pri:0, instance:com.automationexercise.tests.SubscriptionHomePage@15f47664]" started-at="2025-03-01T22:17:23 IST" name="subscriptionVerify" data-provider="getSubscription" finished-at="2025-03-01T22:17:23 IST" duration-ms="770" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[depesh@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subscriptionVerify -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.SubscriptionHomePage@15f47664]" started-at="2025-03-01T22:17:23 IST" name="closingPoint" finished-at="2025-03-01T22:17:24 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+      </class> <!-- com.automationexercise.tests.SubscriptionHomePage -->
+    </test> <!-- SubscriptionHome -->
+    <test started-at="2025-03-01T22:17:24 IST" name="SubscriptionCart" finished-at="2025-03-01T22:17:39 IST" duration-ms="15526">
+      <class name="com.automationexercise.tests.SubscriptionCartPage">
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.SubscriptionCartPage@4b2c5e02]" started-at="2025-03-01T22:17:24 IST" name="entryPoint" finished-at="2025-03-01T22:17:28 IST" duration-ms="4341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="subscriptionVerify(java.lang.String)[pri:0, instance:com.automationexercise.tests.SubscriptionCartPage@4b2c5e02]" started-at="2025-03-01T22:17:28 IST" name="subscriptionVerify" data-provider="getSubscription" finished-at="2025-03-01T22:17:32 IST" duration-ms="3472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ansh@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subscriptionVerify -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.SubscriptionCartPage@4b2c5e02]" started-at="2025-03-01T22:17:32 IST" name="closingPoint" finished-at="2025-03-01T22:17:32 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.SubscriptionCartPage@4b2c5e02]" started-at="2025-03-01T22:17:32 IST" name="entryPoint" finished-at="2025-03-01T22:17:37 IST" duration-ms="5517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="subscriptionVerify(java.lang.String)[pri:0, instance:com.automationexercise.tests.SubscriptionCartPage@4b2c5e02]" started-at="2025-03-01T22:17:37 IST" name="subscriptionVerify" data-provider="getSubscription" finished-at="2025-03-01T22:17:39 IST" duration-ms="1833" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[depesh@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subscriptionVerify -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.SubscriptionCartPage@4b2c5e02]" started-at="2025-03-01T22:17:39 IST" name="closingPoint" finished-at="2025-03-01T22:17:39 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+      </class> <!-- com.automationexercise.tests.SubscriptionCartPage -->
+    </test> <!-- SubscriptionCart -->
+    <test started-at="2025-03-01T22:17:39 IST" name="AddProductsCart" finished-at="2025-03-01T22:18:25 IST" duration-ms="45686">
+      <class name="com.automationexercise.tests.AddProductsCart">
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.AddProductsCart@5e17553a]" started-at="2025-03-01T22:17:39 IST" name="entryPoint" finished-at="2025-03-01T22:17:45 IST" duration-ms="5367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="productAddCart()[pri:0, instance:com.automationexercise.tests.AddProductsCart@5e17553a]" started-at="2025-03-01T22:17:45 IST" name="productAddCart" finished-at="2025-03-01T22:18:25 IST" duration-ms="40113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productAddCart -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.AddProductsCart@5e17553a]" started-at="2025-03-01T22:18:25 IST" name="closingPoint" finished-at="2025-03-01T22:18:25 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+      </class> <!-- com.automationexercise.tests.AddProductsCart -->
+    </test> <!-- AddProductsCart -->
+    <test started-at="2025-03-01T22:18:25 IST" name="VerifyProductQuantity" finished-at="2025-03-01T22:18:35 IST" duration-ms="9901">
+      <class name="com.automationexercise.tests.VerifyProductQuantity">
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.VerifyProductQuantity@43015c69]" started-at="2025-03-01T22:18:25 IST" name="entryPoint" finished-at="2025-03-01T22:18:30 IST" duration-ms="5269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="verifyQuantity()[pri:0, instance:com.automationexercise.tests.VerifyProductQuantity@43015c69]" started-at="2025-03-01T22:18:30 IST" name="verifyQuantity" finished-at="2025-03-01T22:18:35 IST" duration-ms="4479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyQuantity -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.VerifyProductQuantity@43015c69]" started-at="2025-03-01T22:18:35 IST" name="closingPoint" finished-at="2025-03-01T22:18:35 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+      </class> <!-- com.automationexercise.tests.VerifyProductQuantity -->
+    </test> <!-- VerifyProductQuantity -->
+    <test started-at="2025-03-01T22:18:35 IST" name="CategoryProduct" finished-at="2025-03-01T22:18:48 IST" duration-ms="12554">
+      <class name="com.automationexercise.tests.CategoryProduct">
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.CategoryProduct@13bc8645]" started-at="2025-03-01T22:18:35 IST" name="entryPoint" finished-at="2025-03-01T22:18:40 IST" duration-ms="5229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="categoryProduct()[pri:0, instance:com.automationexercise.tests.CategoryProduct@13bc8645]" started-at="2025-03-01T22:18:40 IST" name="categoryProduct" finished-at="2025-03-01T22:18:47 IST" duration-ms="7197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categoryProduct -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.CategoryProduct@13bc8645]" started-at="2025-03-01T22:18:47 IST" name="closingPoint" finished-at="2025-03-01T22:18:48 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+      </class> <!-- com.automationexercise.tests.CategoryProduct -->
+    </test> <!-- CategoryProduct -->
+    <test started-at="2025-03-01T22:18:48 IST" name="AddReview" finished-at="2025-03-01T22:19:03 IST" duration-ms="15888">
+      <class name="com.automationexercise.tests.AddReview">
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.AddReview@16c069df]" started-at="2025-03-01T22:18:48 IST" name="entryPoint" finished-at="2025-03-01T22:18:52 IST" duration-ms="4384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="addReview(java.util.HashMap)[pri:0, instance:com.automationexercise.tests.AddReview@16c069df]" started-at="2025-03-01T22:18:52 IST" name="addReview" data-provider="reviewData" finished-at="2025-03-01T22:18:55 IST" duration-ms="3066" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Ansh Garg, review=product is very good, email=ansh@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addReview -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.AddReview@16c069df]" started-at="2025-03-01T22:18:55 IST" name="closingPoint" finished-at="2025-03-01T22:18:55 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.AddReview@16c069df]" started-at="2025-03-01T22:18:55 IST" name="entryPoint" finished-at="2025-03-01T22:19:00 IST" duration-ms="5300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="addReview(java.util.HashMap)[pri:0, instance:com.automationexercise.tests.AddReview@16c069df]" started-at="2025-03-01T22:19:00 IST" name="addReview" data-provider="reviewData" finished-at="2025-03-01T22:19:03 IST" duration-ms="2780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Depesh, review=product is quality good, email=depesh@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addReview -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.AddReview@16c069df]" started-at="2025-03-01T22:19:03 IST" name="closingPoint" finished-at="2025-03-01T22:19:03 IST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+      </class> <!-- com.automationexercise.tests.AddReview -->
+    </test> <!-- AddReview -->
+    <test started-at="2025-03-01T22:19:03 IST" name="ArrowBtnCheck" finished-at="2025-03-01T22:19:09 IST" duration-ms="5817">
+      <class name="com.automationexercise.tests.ArrowBtnCheck">
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.ArrowBtnCheck@6950ed69]" started-at="2025-03-01T22:19:03 IST" name="entryPoint" finished-at="2025-03-01T22:19:09 IST" duration-ms="5194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="arrowBtnCheck()[pri:0, instance:com.automationexercise.tests.ArrowBtnCheck@6950ed69]" started-at="2025-03-01T22:19:09 IST" name="arrowBtnCheck" finished-at="2025-03-01T22:19:09 IST" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arrowBtnCheck -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.ArrowBtnCheck@6950ed69]" started-at="2025-03-01T22:19:09 IST" name="closingPoint" finished-at="2025-03-01T22:19:09 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+      </class> <!-- com.automationexercise.tests.ArrowBtnCheck -->
+    </test> <!-- ArrowBtnCheck -->
+    <test started-at="2025-03-01T22:19:09 IST" name="DownloadInvoice" finished-at="2025-03-01T22:21:51 IST" duration-ms="161644">
+      <class name="com.automationexercise.tests.DownloadInvoice">
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.DownloadInvoice@42e25b0b]" started-at="2025-03-01T22:19:09 IST" name="entryPoint" finished-at="2025-03-01T22:19:16 IST" duration-ms="6766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="downloadInvoice(java.util.HashMap)[pri:0, instance:com.automationexercise.tests.DownloadInvoice@42e25b0b]" started-at="2025-03-01T22:19:16 IST" name="downloadInvoice" data-provider="testData" finished-at="2025-03-01T22:20:31 IST" duration-ms="75062" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{zipcode=136118, password=ansh garg, address2=sector 34,gurugram, haryana, city=kurukshetra, address1=sector 34,gurugram, haryana, name=ansh garg, last_name=garg, company=good, state=haryana, mobile_number=7082730874, first_name=ansh, email=ansh@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadInvoice -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.DownloadInvoice@42e25b0b]" started-at="2025-03-01T22:20:31 IST" name="closingPoint" finished-at="2025-03-01T22:20:31 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.DownloadInvoice@42e25b0b]" started-at="2025-03-01T22:20:31 IST" name="entryPoint" finished-at="2025-03-01T22:20:37 IST" duration-ms="5236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="downloadInvoice(java.util.HashMap)[pri:0, instance:com.automationexercise.tests.DownloadInvoice@42e25b0b]" started-at="2025-03-01T22:20:37 IST" name="downloadInvoice" data-provider="testData" finished-at="2025-03-01T22:21:51 IST" duration-ms="74093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{zipcode=136118, password=depesh khemka, address2=sector 34,gurugram, haryana, city=kurukshetra, address1=sector 34,gurugram, haryana, name=depesh, last_name=khemka, company=dfhskj, state=haryana, mobile_number=7082730874, first_name=depesh, email=depesh@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadInvoice -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.DownloadInvoice@42e25b0b]" started-at="2025-03-01T22:21:51 IST" name="closingPoint" finished-at="2025-03-01T22:21:51 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+      </class> <!-- com.automationexercise.tests.DownloadInvoice -->
+    </test> <!-- DownloadInvoice -->
+    <test started-at="2025-03-01T22:21:51 IST" name="RegisterBeforeCheckout" finished-at="2025-03-01T22:28:19 IST" duration-ms="387789">
+      <class name="com.automationexercise.tests.RegisterBeforeCheckout">
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.RegisterBeforeCheckout@51a9ad5e]" started-at="2025-03-01T22:21:51 IST" name="entryPoint" finished-at="2025-03-01T22:21:56 IST" duration-ms="5343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="regiterBeforeCheckout(java.util.HashMap)[pri:0, instance:com.automationexercise.tests.RegisterBeforeCheckout@51a9ad5e]" started-at="2025-03-01T22:21:56 IST" name="regiterBeforeCheckout" data-provider="testData" finished-at="2025-03-01T22:22:58 IST" duration-ms="61627" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{zipcode=136118, password=ansh garg, address2=sector 34,gurugram, haryana, city=kurukshetra, address1=sector 34,gurugram, haryana, name=ansh garg, last_name=garg, company=good, state=haryana, mobile_number=7082730874, first_name=ansh, email=ansh@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regiterBeforeCheckout -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.RegisterBeforeCheckout@51a9ad5e]" started-at="2025-03-01T22:22:58 IST" name="closingPoint" finished-at="2025-03-01T22:22:58 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.RegisterBeforeCheckout@51a9ad5e]" started-at="2025-03-01T22:22:58 IST" name="entryPoint" finished-at="2025-03-01T22:25:07 IST" duration-ms="128496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="regiterBeforeCheckout(java.util.HashMap)[pri:0, instance:com.automationexercise.tests.RegisterBeforeCheckout@51a9ad5e]" started-at="2025-03-01T22:25:07 IST" name="regiterBeforeCheckout" data-provider="testData" finished-at="2025-03-01T22:28:19 IST" duration-ms="191916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{zipcode=136118, password=depesh khemka, address2=sector 34,gurugram, haryana, city=kurukshetra, address1=sector 34,gurugram, haryana, name=depesh, last_name=khemka, company=dfhskj, state=haryana, mobile_number=7082730874, first_name=depesh, email=depesh@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regiterBeforeCheckout -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.RegisterBeforeCheckout@51a9ad5e]" started-at="2025-03-01T22:28:19 IST" name="closingPoint" finished-at="2025-03-01T22:28:19 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+      </class> <!-- com.automationexercise.tests.RegisterBeforeCheckout -->
+    </test> <!-- RegisterBeforeCheckout -->
+    <test started-at="2025-03-01T22:28:19 IST" name="RegisterWhileCheckout" finished-at="2025-03-01T22:31:35 IST" duration-ms="196053">
+      <class name="com.automationexercise.tests.RegisterWhileCheckout">
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.RegisterWhileCheckout@560348e6]" started-at="2025-03-01T22:28:19 IST" name="entryPoint" finished-at="2025-03-01T22:28:24 IST" duration-ms="5229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="registerWhileCheckout(java.util.HashMap)[pri:0, instance:com.automationexercise.tests.RegisterWhileCheckout@560348e6]" started-at="2025-03-01T22:28:24 IST" name="registerWhileCheckout" data-provider="testData" finished-at="2025-03-01T22:29:57 IST" duration-ms="93140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{zipcode=136118, password=ansh garg, address2=sector 34,gurugram, haryana, city=kurukshetra, address1=sector 34,gurugram, haryana, name=ansh garg, last_name=garg, company=good, state=haryana, mobile_number=7082730874, first_name=ansh, email=ansh@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWhileCheckout -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.RegisterWhileCheckout@560348e6]" started-at="2025-03-01T22:29:57 IST" name="closingPoint" finished-at="2025-03-01T22:29:57 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.RegisterWhileCheckout@560348e6]" started-at="2025-03-01T22:29:57 IST" name="entryPoint" finished-at="2025-03-01T22:30:03 IST" duration-ms="5241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="registerWhileCheckout(java.util.HashMap)[pri:0, instance:com.automationexercise.tests.RegisterWhileCheckout@560348e6]" started-at="2025-03-01T22:30:03 IST" name="registerWhileCheckout" data-provider="testData" finished-at="2025-03-01T22:31:35 IST" duration-ms="91999" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{zipcode=136118, password=depesh khemka, address2=sector 34,gurugram, haryana, city=kurukshetra, address1=sector 34,gurugram, haryana, name=depesh, last_name=khemka, company=dfhskj, state=haryana, mobile_number=7082730874, first_name=depesh, email=depesh@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWhileCheckout -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.RegisterWhileCheckout@560348e6]" started-at="2025-03-01T22:31:35 IST" name="closingPoint" finished-at="2025-03-01T22:31:35 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+      </class> <!-- com.automationexercise.tests.RegisterWhileCheckout -->
+    </test> <!-- RegisterWhileCheckout -->
+    <test started-at="2025-03-01T22:31:35 IST" name="SearchProductVerifyCart" finished-at="2025-03-01T22:32:06 IST" duration-ms="30799">
+      <class name="com.automationexercise.tests.SearchProductVerifyCart">
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.SearchProductVerifyCart@7f284218]" started-at="2025-03-01T22:31:35 IST" name="entryPoint" finished-at="2025-03-01T22:31:40 IST" duration-ms="5475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="searchProductAndVerify()[pri:0, instance:com.automationexercise.tests.SearchProductVerifyCart@7f284218]" started-at="2025-03-01T22:31:40 IST" name="searchProductAndVerify" finished-at="2025-03-01T22:32:06 IST" duration-ms="25111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductAndVerify -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.SearchProductVerifyCart@7f284218]" started-at="2025-03-01T22:32:06 IST" name="closingPoint" finished-at="2025-03-01T22:32:06 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+      </class> <!-- com.automationexercise.tests.SearchProductVerifyCart -->
+    </test> <!-- SearchProductVerifyCart -->
+    <test started-at="2025-03-01T22:32:06 IST" name="VerifyAddressCartPage" finished-at="2025-03-01T22:33:51 IST" duration-ms="105007">
+      <class name="com.automationexercise.tests.VerifyAddressCartPage">
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.VerifyAddressCartPage@723e88f9]" started-at="2025-03-01T22:32:06 IST" name="entryPoint" finished-at="2025-03-01T22:32:11 IST" duration-ms="5095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="verifyAddressCartPage(java.util.HashMap)[pri:0, instance:com.automationexercise.tests.VerifyAddressCartPage@723e88f9]" started-at="2025-03-01T22:32:11 IST" name="verifyAddressCartPage" data-provider="testData" finished-at="2025-03-01T22:32:58 IST" duration-ms="47072" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{zipcode=136118, password=ansh garg, address2=sector 34,gurugram, haryana, city=kurukshetra, address1=sector 34,gurugram, haryana, name=ansh garg, last_name=garg, company=good, state=haryana, mobile_number=7082730874, first_name=ansh, email=ansh@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddressCartPage -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.VerifyAddressCartPage@723e88f9]" started-at="2025-03-01T22:32:58 IST" name="closingPoint" finished-at="2025-03-01T22:32:58 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.VerifyAddressCartPage@723e88f9]" started-at="2025-03-01T22:32:58 IST" name="entryPoint" finished-at="2025-03-01T22:33:04 IST" duration-ms="5476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="verifyAddressCartPage(java.util.HashMap)[pri:0, instance:com.automationexercise.tests.VerifyAddressCartPage@723e88f9]" started-at="2025-03-01T22:33:04 IST" name="verifyAddressCartPage" data-provider="testData" finished-at="2025-03-01T22:33:51 IST" duration-ms="46964" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{zipcode=136118, password=depesh khemka, address2=sector 34,gurugram, haryana, city=kurukshetra, address1=sector 34,gurugram, haryana, name=depesh, last_name=khemka, company=dfhskj, state=haryana, mobile_number=7082730874, first_name=depesh, email=depesh@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddressCartPage -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.VerifyAddressCartPage@723e88f9]" started-at="2025-03-01T22:33:51 IST" name="closingPoint" finished-at="2025-03-01T22:33:51 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+      </class> <!-- com.automationexercise.tests.VerifyAddressCartPage -->
+    </test> <!-- VerifyAddressCartPage -->
+    <test started-at="2025-03-01T22:33:51 IST" name="ViewBrand" finished-at="2025-03-01T22:34:00 IST" duration-ms="8689">
+      <class name="com.automationexercise.tests.ViewBrand">
+        <test-method is-config="true" signature="entryPoint()[pri:0, instance:com.automationexercise.tests.ViewBrand@f627d13]" started-at="2025-03-01T22:33:51 IST" name="entryPoint" finished-at="2025-03-01T22:33:56 IST" duration-ms="5202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entryPoint -->
+        <test-method signature="viewBrand()[pri:0, instance:com.automationexercise.tests.ViewBrand@f627d13]" started-at="2025-03-01T22:33:56 IST" name="viewBrand" finished-at="2025-03-01T22:33:59 IST" duration-ms="3228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewBrand -->
+        <test-method is-config="true" signature="closingPoint()[pri:0, instance:com.automationexercise.tests.ViewBrand@f627d13]" started-at="2025-03-01T22:33:59 IST" name="closingPoint" finished-at="2025-03-01T22:34:00 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingPoint -->
+      </class> <!-- com.automationexercise.tests.ViewBrand -->
+    </test> <!-- ViewBrand -->
+  </suite> <!-- Suite -->
+</testng-results>
